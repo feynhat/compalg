@@ -1,9 +1,8 @@
-#include "../compalg/la.h"
-#include "../compalg/types.h"
-#include "../compalg/rational.h"
+#include "la.h"
+#include "types.h"
+#include "rational.h"
 
 #include <stdlib.h>
-#include <stdio.h>
 
 /****************************************************************************/
 /* Rational Matrices                                                        */
@@ -83,6 +82,7 @@ void QQMat_hilbert(QQMat *mat, size_t n)
     }
 }
 
+/*
 void QQMat_print(const QQMat *mat)
 {
     size_t i, j;
@@ -97,6 +97,7 @@ void QQMat_print(const QQMat *mat)
         putchar('\n');
     }
 }
+*/
 
 void QQMat_gaussian(QQMat *res, const QQMat *mat)
 {
@@ -310,6 +311,7 @@ void FMat_hilbert(FMat *mat, size_t n)
     }
 }
 
+/*
 void FMat_print(const FMat *mat)
 {
     size_t i, j;
@@ -324,6 +326,7 @@ void FMat_print(const FMat *mat)
         putchar('\n');
     }
 }
+*/
 
 void FMat_gaussian(FMat *res, const FMat *mat)
 {

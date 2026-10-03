@@ -250,15 +250,13 @@
      is a solution to Ax = b defined over F. Give an example which shows that
      this is not true if one replaces F by Z.
 
- **Proof.** Let `adj(A)` be the adjugate of `A`: the `n x n` matrix whose (i, j)-th
- entry is the cofactor `(−1)^(i+j) det(A_ji)`, where `A_ji` is `A` with row j and
- column i removed. Each cofactor is a sum of products of entries of `A`, so
- `adj(A)` is defined over `F`. By the cofactor expansion,
-  `A · adj(A) = adj(A) · A = det(A) I`
-
- (the diagonal entries are the expansions of `det(A)` along a row or column, and
- the off-diagonal entries are expansions of determinants of matrices with two
- equal rows or columns, which are 0).
+ **Proof.** Let `adj(A)` be the adjugate of `A`: the `n x n` matrix whose
+ `(i, j)`-th entry is the cofactor `(−1)^(i+j) det(A_ji)`, where `A_ji` is `A`
+ with row j and column i removed. By the cofactor expansion,
+ `A · adj(A) = adj(A)·A = det(A) I`
+ (the diagonal entries are the expansions of `det(A)` along a row or column,
+ and the off-diagonal entries are expansions of determinants of matrices with
+ two equal rows or columns, which are 0).
 
  Since `F` is a field and `det(A) ≠ 0`, `det(A)` has an inverse `det(A)^-1` in
  `F`. Let

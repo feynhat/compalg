@@ -15,6 +15,7 @@
 
 #include "types.h"
 #include "la.h"
+#include "format.h"
 
 int main(void)
 {
@@ -36,7 +37,7 @@ int main(void)
     QQMat_solve(&sol, &H0, &b0);
 
     printf("(a) Exact solution:\n");
-    QQMat_print(&sol);
+    QQMat_fprint(stdout, &sol, QQ_ALIGN_RIGHT, 0);
 
     QQMat_free(&H0);
     QQMat_free(&x0);
@@ -57,7 +58,7 @@ int main(void)
     FMat_solve(&float_sol, &H1, &b1);
 
     printf("(b) Numerical (Floating-point) solution:\n");
-    FMat_print(&float_sol);
+    FMat_fprint(stdout, &float_sol, 17, RR_ALIGN_POINT, 0);
 
     FMat_free(&H1);
     FMat_free(&x1);

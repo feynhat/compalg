@@ -1,6 +1,5 @@
 #include "rational.h"
 #include "nt.h"
-#include <stdio.h>
 
 void QQ_set(QQ *q, ZZ a, ZZ b)
 {
@@ -97,6 +96,7 @@ double QQ_to_dbl(const QQ *q)
     return a/b;
 }
 
+/*
 int QQ_print(const QQ *q)
 {
     if (q->denom == 1) {
@@ -105,3 +105,4 @@ int QQ_print(const QQ *q)
         return printf("%ld/%ld", q->numer, q->denom);
     }
 }
+*/

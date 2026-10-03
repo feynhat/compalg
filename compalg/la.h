@@ -15,7 +15,7 @@ void QQMat_copy(QQMat *, const QQMat *);
 void QQMat_set(QQMat *, size_t, size_t, QQ *);
 void QQMat_get(QQ *, const QQMat *, size_t, size_t);
 
-void QQMat_print(const QQMat *);
+/* void QQMat_print(const QQMat *); */
 
 void QQMat_mul(QQMat *, const QQMat *, const QQMat *);
 void QQMat_gaussian(QQMat *, const QQMat *);
@@ -33,7 +33,7 @@ void FMat_copy(FMat *, const FMat *);
 void FMat_set(FMat *, size_t, size_t, RR);
 RR FMat_get(const FMat *, size_t, size_t);
 
-void FMat_print(const FMat *);
+/* void FMat_print(const FMat *); */
 
 void FMat_mul(FMat *, const FMat *, const FMat *);
 void FMat_gaussian(FMat *, const FMat *);

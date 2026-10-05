@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "format.h"
+#include <compalg/format.h>
 
 int ZZ_sprint(char *buf, ZZ a)
 {

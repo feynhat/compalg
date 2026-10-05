@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "nt.h"
-#include "types.h"
+#include <compalg/nt.h>
+#include <compalg/types.h>
 
 int main(void)
 {

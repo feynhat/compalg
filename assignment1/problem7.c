@@ -5,8 +5,8 @@
 
 #include <stdio.h>
 
-#include "types.h"
-#include "nt.h"
+#include <compalg/types.h>
+#include <compalg/nt.h>
 
 int main(void)
 {

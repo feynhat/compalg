@@ -1,6 +1,5 @@
 CC       = gcc
-CPPFLAGS = -Icompalg -MMD -MP
-CFLAGS   = -std=c89 -Wall -Wextra -pedantic -g -O2
+CFLAGS   = -std=c89 -Wall -Wextra -pedantic -g -O2 -I. -MMD -MP
 LDLIBS   = -lm
 
 BUILD = build

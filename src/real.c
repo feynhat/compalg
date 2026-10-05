@@ -1,5 +1,5 @@
-#include "real.h"
-#include "types.h"
+#include <compalg/real.h>
+#include <compalg/types.h>
 #include <math.h>
 
 int F_eq(RR x, RR y)

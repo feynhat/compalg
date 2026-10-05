@@ -1,9 +1,9 @@
 #ifndef LA_H
 #define LA_H
 
-#include "../compalg/types.h"
-#include "../compalg/rational.h"
-#include "../compalg/real.h"
+#include <compalg/types.h>
+#include <compalg/rational.h>
+#include <compalg/real.h>
 
 #include <stdlib.h>
 

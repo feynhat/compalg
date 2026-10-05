@@ -3,9 +3,10 @@
 
 #include <stdio.h>
 #include <limits.h>
-#include "nt.h"
-#include "rational.h"
-#include "la.h"
+#include <compalg/types.h>
+#include <compalg/nt.h>
+#include <compalg/rational.h>
+#include <compalg/la.h>
 
 /* buffer sizes, '\0' included: a B-bit integer has at most B/3 + 1 digits */
 #define ZZ_STR_MAX (sizeof(ZZ) * CHAR_BIT / 3 + 3)

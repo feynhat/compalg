@@ -1,7 +1,7 @@
 #ifndef REAL_H
 #define REAL_H
 
-#include "../compalg/types.h"
+#include <compalg/types.h>
 
 #define EPS 1E-10
 

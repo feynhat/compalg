@@ -1,5 +1,5 @@
-#include "rational.h"
-#include "nt.h"
+#include <compalg/rational.h>
+#include <compalg/nt.h>
 
 void QQ_set(QQ *q, ZZ a, ZZ b)
 {

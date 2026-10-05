@@ -7,8 +7,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "types.h"
-#include "nt.h"
+#include <compalg/types.h>
+#include <compalg/nt.h>
 
 int main(void)
 {

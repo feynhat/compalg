@@ -1,8 +1,8 @@
 #ifndef RATIONAL_H
 #define RATIONAL_H
 
-#include "../compalg/types.h"
-#include "../compalg/nt.h"
+#include <compalg/types.h>
+#include <compalg/nt.h>
 
 void QQ_set(QQ *, ZZ, ZZ);
 

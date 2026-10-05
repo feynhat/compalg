@@ -15,8 +15,8 @@
 #include <stdio.h>
 #include <time.h>
 
-#include "types.h"
-#include "la.h"
+#include <compalg/types.h>
+#include <compalg/la.h>
 
 #define TRIALS 1000
 #define MAXSIZE_Z 10

@@ -13,9 +13,9 @@
 
 #include <stdio.h>
 
-#include "types.h"
-#include "la.h"
-#include "format.h"
+#include <compalg/types.h>
+#include <compalg/la.h>
+#include <compalg/format.h>
 
 int main(void)
 {

@@ -1,6 +1,6 @@
-#include "la.h"
-#include "types.h"
-#include "rational.h"
+#include <compalg/la.h> 
+#include <compalg/types.h>
+#include <compalg/rational.h>
 
 #include <stdlib.h>
 

@@ -1,6 +1,6 @@
-#include "nt.h"
-#include "types.h"
-#include "rational.h"
+#include <compalg/nt.h>
+#include <compalg/types.h>
+#include <compalg/rational.h>
 #include <stdio.h>
 #include <math.h>
 

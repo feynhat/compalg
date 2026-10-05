@@ -1,7 +1,7 @@
 # compalg
 A simple computer algebra system written in C
 
-### Written as part of AM9563 - Computer Algebra.a
+### Written as part of AM9563 - Computer Algebra
 
 ## Build instructions
 

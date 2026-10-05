@@ -1,8 +1,8 @@
 #ifndef NT_H
 #define NT_H
 
-#include "../compalg/types.h"
-#include "../compalg/rational.h"
+#include <compalg/types.h>
+#include <compalg/rational.h>
 
 #include <stdlib.h>
 
